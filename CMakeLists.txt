@@ -5,8 +5,8 @@ endif()
 if(POLICY CMP0054)
   cmake_policy(SET CMP0054 NEW)
 endif()
-SET(CMAKE_C_COMPILER gcc-5)
-SET(CMAKE_CXX_COMPILER g++-5)
+SET(CMAKE_C_COMPILER gcc)
+SET(CMAKE_CXX_COMPILER g++)
 # ---[ Caffe project
 project(Caffe C CXX)
 
